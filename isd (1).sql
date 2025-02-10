@@ -1,0 +1,60 @@
+-- phpMyAdmin SQL Dump
+-- version 4.8.4
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Waktu pembuatan: 10 Feb 2025 pada 03.21
+-- Versi server: 10.1.37-MariaDB
+-- Versi PHP: 5.6.39
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `isd`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `hp`
+--
+
+CREATE TABLE `hp` (
+  `npk` varchar(6) NOT NULL,
+  `no_hp` varchar(20) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data untuk tabel `hp`
+--
+
+INSERT INTO `hp` (`npk`, `no_hp`) VALUES
+('T30005', '6289502233429'),
+('T30004', '6282191581014'),
+('T30006', '6289502233421'),
+('M1512', '6289502233425'),
+('T3003', '6289502233420'),
+('3004', '6289102233425'),
+('K1512', '6289202233425'),
+('T30007', '6289702233425'),
+('T30008', '6289802233425'),
+('T30010', '6289502233499'),
+('T30011', '6289502233490'),
+('T30012', '6289502233497'),
+('01925', '6289902233425'),
+('T30009', '6289102233425'),
+('01875', '6289102233425');
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

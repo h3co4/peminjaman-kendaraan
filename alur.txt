@@ -1,0 +1,23 @@
+#part1
+-loginfrom 
+-database
+-koneksi
+-proseslogin
+
+#part2 pemohon
+-dashboard
+-database
+-koneksi
+-CRUD
+-fpdf
+-print
+
+#mengetahui
+-CRUD
+-amprove
+-print
+
+#disetujui
+-CRUD
+-amprove
+-print
